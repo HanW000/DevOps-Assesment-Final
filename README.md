@@ -1,7 +1,7 @@
 # DevOps-Final
 
 # DevOps Intern Final Assessment
-![CI](https://github.com/HanW000/DevOps-Assessment-Final/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/HanW000/DevOps-Assesment-Final/actions/workflows/ci.yml/badge.svg)
 
 
 **Name:** Han Wang  
