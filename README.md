@@ -17,3 +17,27 @@ Each step produces usable output for the next step.
 ### Run
 ```bash
 python hello.py
+
+## Step 2 - Linux & Scripting Basics
+
+Created a shell script to display basic system information.
+
+### Script
+- Path: `scripts/sysinfo.sh`
+- Prints:
+  - Current user
+  - Current date
+  - Disk usage
+
+### Run
+```bash
+chmod +x scripts/sysinfo.sh
+./scripts/sysinfo.sh
+
+## Step 3 - Docker Basics
+
+Containerized `hello.py` using Docker. The container runs `python hello.py` on startup.
+
+### Build
+```bash
+docker build -t devops-hello:latest .
