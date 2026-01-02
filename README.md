@@ -1,6 +1,8 @@
 # DevOps-Final
 
 # DevOps Intern Final Assessment
+![CI](https://github.com/HanW000/DevOps-Assessment-Final/actions/workflows/ci.yml/badge.svg)
+
 
 **Name:** Han Wang  
 **Date:** 2026-01-02  
@@ -41,3 +43,28 @@ Containerized `hello.py` using Docker. The container runs `python hello.py` on s
 ### Build
 ```bash
 docker build -t devops-hello:latest .
+
+## Step 4 - Add CI status badge
+
+## Step 5 - Job Deployment with Nomad
+
+Created a Nomad job to run the Docker container.
+
+### Run (local dev mode)
+Start Nomad in dev mode (keep this terminal open):
+```bash
+nomad agent -dev
+
+
+## Step 6 - Monitoring with Grafana Loki
+
+Configured Grafana Loki locally using Docker for log aggregation.
+
+- Loki runs in standalone mode using the official Grafana image.
+- Application and Nomad logs serve as log sources.
+- Log access is verified via Docker and Nomad commands.
+
+Documentation:
+- `monitoring/loki_setup.txt`
+
+(Optional) Screenshots can be added showing Loki container running and logs output.
